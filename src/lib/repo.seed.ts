@@ -1,0 +1,60 @@
+const repoData = [
+    {
+        id: 1,
+        title: "design-system",
+        visibility: "Public",
+        techStack: "React",
+        size: "7320",
+        lastUpdated: 1,
+    },
+    {
+        id: 2,
+        title: "codeant-ci-app",
+        visibility: "Private",
+        techStack: "Javascript",
+        size: "5871",
+        lastUpdated: 2,
+    },
+    {
+        id: 3,
+        title: "analytics-dashboard",
+        visibility: "Private",
+        techStack: "Python",
+        size: "4521",
+        lastUpdated: 5,
+    },
+    {
+        id: 4,
+        title: "mobile-app",
+        visibility: "Public",
+        techStack: "Swift",
+        size: "3096",
+        lastUpdated: 3,
+    },
+    {
+        id: 5,
+        title: "e-commerce-platform",
+        visibility: "Private",
+        techStack: "Java",
+        size: "6210",
+        lastUpdated: 6,
+    },
+    {
+        id: 6,
+        title: "blog-website",
+        visibility: "Public",
+        techStack: "HTML/CSS",
+        size: "1876",
+        lastUpdated: 4,
+    },
+    {
+        id: 7,
+        title: "social-network",
+        visibility: "Private",
+        techStack: "PHP",
+        size: "5432",
+        lastUpdated: 7,
+    },
+]
+
+export { repoData };

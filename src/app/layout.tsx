@@ -12,6 +12,16 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const satoshiLight = localFont({
+  src: './fonts/Satoshi-Light.woff',
+  variable: '--font-satoshi-light',
+  weight: "300"
+});
+const satoshiRegular = localFont({
+  src: './fonts/Satoshi-Regular.woff',
+  variable: '--font-satoshi-regular',
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${satoshiLight.variable} ${satoshiRegular.variable} antialiased`}
       >
         {children}
       </body>
