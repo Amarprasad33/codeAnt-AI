@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const LoginOptionBtn = ({ href, iconName, titleText }: any) => {
+const LoginOptionBtn = ({ href, iconName, titleText }: { href: string, iconName: string, titleText: string }) => {
     return (
         <Link href={`${href}`}
             className="border items-center flex w-full text-base

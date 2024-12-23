@@ -8,7 +8,15 @@ const Repository = ({
     repoSize, 
     lastUpdated,  
     maxLength 
-}:any) => {
+}:{
+    index: number
+    title: string,
+    visibility: string
+    techStack: string
+    repoSize: string,
+    lastUpdated: number
+    maxLength: number
+}) => {
     return (
         <div className={`py-6 bg-white text-[#181D27] ${index === maxLength-1? 'rounded-b-xl' : 'border-b border-[#D5D7DA]'}`}>
             <div className="px-6 flex flex-col gap-3">

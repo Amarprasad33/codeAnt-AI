@@ -2,7 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-const SidebarItem = ({ iconName, displayName, href, clickedItemName, setItemClicked }: any) => {
+const SidebarItem = ({ iconName, displayName, href, clickedItemName, setItemClicked }: {
+    iconName: string, displayName: string, href: string, clickedItemName: string, setItemClicked: React.Dispatch<React.SetStateAction<string>>
+}) => {
     return (
         <Link 
             href={href} 
