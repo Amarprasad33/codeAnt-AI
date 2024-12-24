@@ -18,7 +18,7 @@ const Repository = ({
     maxLength: number
 }) => {
     return (
-        <div className={`py-6 bg-white text-[#181D27] ${index === maxLength-1? 'rounded-b-xl' : 'border-b border-[#D5D7DA]'}`}>
+        <div className={`py-6 bg-white hover:bg-[#ebebeb] text-[#181D27] ${index === maxLength-1? 'rounded-b-xl' : 'border-b border-[#D5D7DA]'}`}>
             <div className="px-6 flex flex-col gap-3">
                 <div className="flex gap-2 items-center">
                     <span className="text-xl font-medium">{title}</span>
